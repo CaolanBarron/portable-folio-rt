@@ -1,0 +1,44 @@
+@keyframes swapping-top {
+    0% { transform: translateY(-2rem); opacity: 0%;}
+    5% {transform: translateY(-2rem); opacity: 0%;}
+    
+    20% {transform: translateY(0rem); opacity: 100%;}
+    80% {transform: translateY(0rem); opacity: 100%;}
+    
+    95% {transform: translateY(-2rem); opacity: 0%;}
+    100% {transform: TranslateY(-2rem); opacity: 0%;}
+    
+}
+@keyframes swapping-bottom {
+    0% { transform: translateY(2rem); opacity: 0%;}
+    5% {transform: translateY(2rem); opacity: 0%;}
+    
+    20% {transform: translateY(0rem); opacity: 100%;}
+    80% {transform: translateY(0rem); opacity: 100%;}
+    
+    95% {transform: translateY(2rem); opacity: 0%;}
+    100% {transform: TranslateY(2rem); opacity: 0%;}
+    
+}
+
+#swapper-container{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#swapper-top{
+    animation-name: swapping-top;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+#swapper-bottom{
+    animation-name: swapping-bottom;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+

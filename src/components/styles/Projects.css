@@ -1,0 +1,51 @@
+
+.project-block  {
+    
+    display: inline-flex;
+    flex-direction: column;
+    border: solid;
+    border-width: 2px;
+    text-decoration: none;
+    color: inherit;
+    background-color: gray;
+    padding:1rem;
+}
+.project-block > img { 
+    border-bottom: 1px solid;
+}
+.project-block > span {
+    padding: 1rem;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.tech-title {
+    transition: border-color 1s, background-color 5s;
+    display: inline-flex;
+    color: black;
+    border-style: solid;
+    padding: 0.5rem;
+    border-radius: 30%;
+    background-color: gray;
+    border-width: 3px;
+    
+}
+
+
+.tech-ball {
+    margin-left: 10px;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    transition: inherit;
+}
+
+.hovered {
+    border-color: yellow;
+}
+
+.ball-hovered {
+    background-color: yellow;
+}
